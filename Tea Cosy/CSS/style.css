@@ -1,0 +1,141 @@
+*{
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica, sans-serif;
+  }
+  
+  h2, h4, h5{
+    text-align: center;
+  }
+  
+  h2{
+    font-size: 22px;
+  }
+  
+  h4{
+    font-size: 18px;
+  }
+  
+  ul {
+    text-align: right;
+    padding-right: 20px;
+  }
+  
+  .container {
+    margin: 0 auto;
+    border-bottom: 1px solid seashell;
+  }
+  
+  .header {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0%;
+  }
+  
+  .header li {
+    list-style: none;
+    display: inline-block;
+    line-height: 69px;
+  }
+  
+  .header li a {
+    text-decoration: underline;
+    font-size: 16px;
+    margin: 8px;
+  }
+  
+  #logo{
+    height: 50px;
+    float: left;
+    padding-left: 20px;
+  }
+  
+  main{
+    position: relative;
+    padding-top: 74px;
+  }
+  
+  #mission{
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*r0338l*_ga*MzgyMzU5NzM1OS4xNjk4NDQ1ODY4*_ga_3LRZM6TM9L*MTY5OTIwMDczMS4yMi4xLjE2OTkyMDMzMDAuMC4wLjA.");
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+    opacity: 0.5;
+  }
+  
+  #mission #block{
+    background-color: black;
+    text-align: center;
+    position: relative;
+    top: 43%;
+    width: 1200px;
+    padding: 1px;
+  }
+  
+  #featured{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  figure{
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  figure img{
+    height: 200px;
+    width: 300px;
+  }
+  
+  figcaption{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 10px;
+  }
+  
+  #location{
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1n5kzke*_ga*MzgyMzU5NzM1OS4xNjk4NDQ1ODY4*_ga_3LRZM6TM9L*MTY5OTU2MDQ0Mi4yOS4xLjE2OTk1NjA0NDQuMC4wLjA.) ;
+    height: 500px;
+    width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    opacity: 0.5;
+    padding-top: 100px;
+    padding-bottom: 15px;
+  }
+  
+  #location h2{
+    background-color: transparent;
+    font-size: 22px;
+  }
+  
+  .box{
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 250px;
+    position: relative;
+    margin: 40px;
+    line-height: 30px;
+    font-size: 18px;
+  }
+  
+  footer{
+    height: 200px;
+    margin: 0 auto;
+    line-height: 25px;
+  }
+  
+  #copyright{
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 20px;
+    padding-top: 10px;
+  }
